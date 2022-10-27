@@ -1,0 +1,25 @@
+/* All */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* md */
+    /* Nav */
+    .search_box{
+        width: 100%;
+    }
+
+
+
+/* lg */
+
+    /* Nav */
+    @media all and (min-width: 768px ){
+        .nav_logo{
+            content:url("../img/boolean\ logo\ +\ text.png")
+        }
+    }
+
