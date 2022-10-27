@@ -6,20 +6,34 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
-/* md */
-    /* Nav */
-    .search_box{
-        width: 100%;
-    }
+/* Nav */
 
-
-
-/* lg */
-
-    /* Nav */
+    /* Responsive settings */
     @media all and (min-width: 768px ){
         .nav_logo{
             content:url("../img/boolean\ logo\ +\ text.png")
         }
+
     }
 
+    @media all and (max-width: 768px ){
+        .list_obj_nav,.question_obj_nav, .vertical_obj_nav {
+            display: none;
+        }
+    }
+
+
+    /* Properties */
+    .nav_obj_cont{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+
+    .bell_obj_nav{
+        color: orange;
+    }
+
+
+
+    
