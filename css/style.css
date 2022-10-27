@@ -58,16 +58,35 @@
     
 
 /* main */
+
+    .main_header{
+        margin-bottom: 30px;
+        background-color: #1b72e8;
+    }
+
+        .main_header_items{
+            outline: black solid 1px;
+            height: 50px;
+        }
+
     .main_container{
         margin-left: 180px;
         margin-top: 56px;
         background-color: antiquewhite;
-        width: calc(100% - 80px);
+        width: calc(100% - 180px);
         height: 20000px;
     }
 
     @media screen and (max-width: 768px){
         .main_container{
            margin-left: 80px;
+           width: calc(100% - 80px);
         }
+    }
+
+    .main_container_margins{
+        height: 1000px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: black solid 1px;
     }
