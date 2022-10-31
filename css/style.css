@@ -90,7 +90,17 @@
         margin-left: 10px;
         margin-right: 10px;
         border: black solid 1px;
+        display: flex;
+        flex-wrap: wrap;
     }
+
+        .cards_container{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+
+        }
 
         .next_classes{
             outline: black 1px solid;
