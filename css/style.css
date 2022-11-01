@@ -266,6 +266,17 @@
                     }
 
 
+            /* FAQ */
+
+            .faq_row{
+                display: block;
+            }
+
+                .faq_title_cont{
+                    display: flex;
+                    justify-content: space-between;
+                }
+
             /* Todo */
             
             .todo_row_top{
