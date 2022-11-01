@@ -150,8 +150,6 @@
 
     .main_container_margins{
         /* height: 1000px; */
-        margin-left: 10px;
-        margin-right: 10px;
         border: black solid 1px;
         display: flex;
         flex-wrap: wrap;
@@ -165,7 +163,7 @@
 
         }
 
-        .next_classes{
+        .card_single{
             outline: black 1px solid;
             border-radius: 10px;
             background-color: #fff;
@@ -178,13 +176,17 @@
 
         }
 
-            .classes_title{
+            .card_title_cont{
                 background-color: #97979765;
                 font-size: 30px;
                 display: flex;
                 justify-content: center;
 
             }
+
+                .card_title{
+                    margin-bottom: 10px;
+                }
 
             .order_classes_row{
                 padding-top: 10px;
