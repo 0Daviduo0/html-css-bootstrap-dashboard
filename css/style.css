@@ -46,9 +46,17 @@
         }
     }
 
+    @media screen and (max-width: 768px){
+        .sidenav_icon_name{
+            display: none;
+        }
+    }
+
     .sidenav{
         min-width: 80px;
         height:100%;
+        padding-top: 70px;
+        padding-left: 30px;
         background-color: #0e253b;
         position: fixed;
         z-index: 600;
@@ -56,8 +64,22 @@
         display: flex;
         flex-direction: column;
         overflow: auto;
+        color: #fff;
     }
-    
+
+        .sidenav_buttons{
+            margin: 5px 0;
+            display: flex;
+        }
+
+        .sidenav_icon_name{
+            margin-left: 10px;
+        }
+
+        .bottom_fixed_button{
+            position: fixed;
+            bottom: 15px;
+        }
 
 /* main */
 
