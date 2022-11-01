@@ -132,7 +132,7 @@
     }
 }
 
-    /* Main main */
+    /* Main classes */
 
     .main_container{
         margin-left: 180px;
@@ -181,12 +181,32 @@
                 font-size: 30px;
                 display: flex;
                 justify-content: center;
+                align-items: center;
 
             }
 
                 .card_title{
                     margin-bottom: 10px;
                 }
+
+                .card_button{
+                    margin-right: 10px;
+                }
+
+                .add_button_link{
+                    text-decoration: none;
+                }
+                    .add_button{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 45px;
+                        height: 45px;
+                        border: #1b72e8 solid 1px;
+                        border-radius: 5px;
+                        color: #1b72e8;
+                        font-size: 30px;
+                    }
 
             .order_classes_row{
                 padding-top: 10px;
