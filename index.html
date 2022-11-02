@@ -129,23 +129,26 @@
                                 </a>
                                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                                     <div class="offcanvas-header">
-                                      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-                                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                      <h4 class="offcanvas-title" id="offcanvasExampleLabel"><strong>Aggiungi classe</strong></h4>
                                     </div>
                                     <div class="offcanvas-body">
-                                      <div>
-                                        Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+                                      <div class="offcanvas_element_container">
+                                        <div class="add_class_name offcanvas_activity_title">
+                                            Nome
+                                        </div>
+                                        <div class="add_class_name_textfield">
+                                            <input type="text" class="form-control" placeholder="Classe --" aria-label="Username">
+                                        </div>
+                                        <div class="add_class_begin_date offcanvas_activity_title">
+                                            Data inizio
+                                        </div>
+                                        <div class="add_class_date_textfield" class="offcanvas_input">
+                                            <input type="date" class="form-control" placeholder="Classe --" aria-label="Username">
+                                        </div>
                                       </div>
-                                      <div class="dropdown mt-3">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                                          Dropdown button
-                                        </button>
-                                        <ul class="dropdown-menu">
-                                          <li><a class="dropdown-item" href="#">Action</a></li>
-                                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                        </ul>
-                                      </div>
+                                        <button type="button" class="btn btn-primary">Salva</button>
+
+                                        <button type="button" class="btn btn-warning">Reset</button>
                                     </div>
                                   </div>
                             </div>

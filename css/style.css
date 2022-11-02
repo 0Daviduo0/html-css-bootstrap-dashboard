@@ -230,6 +230,20 @@
                         font-size: 30px;
                     }
 
+                        .offcanvas_element_container{
+                            margin-right: 10px;
+                        }
+
+                            .offcanvas_activity_title{
+                                font-size: 20px;
+                            }
+
+                            .offcanvas_input{
+                                min-width: 100%;
+                            }
+
+                        
+
             .order_classes_row{
                 padding-top: 10px;
                 padding-bottom: 5px;
